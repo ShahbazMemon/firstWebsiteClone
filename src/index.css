@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+/* @import "../src/sass/variable.scss"; */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Mulish", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* navbar css  */
+
+.navbar {
+  position: fixed !important;
+  width: 100%;
+  z-index: 1 !important;
+}
+
+.nav-active {
+  color: aqua !important;
+}
+
+/* home css  */
+
+.home-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-left {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.grow-your {
+  padding: 0 7em 0em 0em;
+}
+
+.grow-your h3 {
+  font-size: 2em;
+}
+
+.grow-your h3 span {
+  color: brown;
+}
+
+.grow-your p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.get-started {
+  padding: 0.7em 0.7em !important;
+  border-radius: 28px !important;
+  font-size: 0.9em !important;
+  border: 2px solid brown !important;
+}
+
+.animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.contact-sec {
+  width: 100%;
+  height: 100vh;
+}
+
+/* gallery section css */
+
+.gallery-sec {
+  padding-top: 6em;
+}
+
+.order-btn {
+  font-size: 0.78em !important;
+  background: lavender !important;
+  color: black !important;
+  font-weight: bolder !important;
+  padding: 0 8px !important;
+  border: 2px solid lavender !important;
+}
+
+.order-btn:hover {
+  font-size: 0.78em !important;
+  background: #ffca2c !important;
+  color: black !important;
+  font-weight: bolder !important;
+  padding: 0 8px !important;
+  border: 2px solid black !important;
+}
+
+.outer {
+  overflow: hidden;
+}
