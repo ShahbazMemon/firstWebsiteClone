@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/firstwebsite/static/css/main.9fdbd4c2.chunk.css",
+    "main.js": "/firstwebsite/static/js/main.1c129708.chunk.js",
+    "main.js.map": "/firstwebsite/static/js/main.1c129708.chunk.js.map",
+    "runtime-main.js": "/firstwebsite/static/js/runtime-main.d2842192.js",
+    "runtime-main.js.map": "/firstwebsite/static/js/runtime-main.d2842192.js.map",
+    "static/css/2.f2512455.chunk.css": "/firstwebsite/static/css/2.f2512455.chunk.css",
+    "static/js/2.166a3f77.chunk.js": "/firstwebsite/static/js/2.166a3f77.chunk.js",
+    "static/js/2.166a3f77.chunk.js.map": "/firstwebsite/static/js/2.166a3f77.chunk.js.map",
+    "index.html": "/firstwebsite/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/firstwebsite/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.9fdbd4c2.chunk.css.map": "/firstwebsite/static/css/main.9fdbd4c2.chunk.css.map",
+    "static/js/2.166a3f77.chunk.js.LICENSE.txt": "/firstwebsite/static/js/2.166a3f77.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2842192.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.166a3f77.chunk.js",
+    "static/css/main.9fdbd4c2.chunk.css",
+    "static/js/main.1c129708.chunk.js"
+  ]
+}
